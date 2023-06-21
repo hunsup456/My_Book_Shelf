@@ -1,0 +1,28 @@
+.title{
+    float: left;
+    width: 150px;
+    border-top: 1px solid red;   
+    text-align: right;
+    color: rgb(255, 77, 77);
+    padding-top: 5px;
+    margin: 100px 100px 0 200px;   
+}
+
+.map{
+    width: 1200px;
+    height: 800px;
+    margin-top: 100px;
+}
+.info_box{
+    float: left;
+    width: 500px;
+    
+    
+}
+.info_box div{
+    margin-bottom: 100px;
+}
+
+iframe{
+    float: right;
+}

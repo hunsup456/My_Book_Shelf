@@ -1,0 +1,108 @@
+
+.book{
+	width: 1100px;
+	box-sizing: border-box;
+	position: relative;
+	top: 30px;
+	margin-bottom: 30px;
+}
+
+.book li {
+	
+	margin: 15px 0;
+}
+.book li p{
+	float: left;
+	vertical-align: top;
+	width: 150px;
+}
+.book li p:nth-child(3){
+    margin-top: 5px;	
+    color: rgb(199, 202, 202);
+}
+
+.book li div{
+	position: relative;
+	float: left;
+	width: 150px;
+	margin-top: 5px;
+}
+.book li div i{
+	
+	margin-right: 5px;
+}
+.book li div i:hover{
+	cursor: pointer;
+	margin-right: 5px;
+	color: black;
+}
+
+
+.sd_book_list, .fm_book_list,.km_book_list{
+	position: relative;
+	padding: 30px 0; 
+	left: 50px;
+}
+
+.sd_book_list li,.fm_book_list li,.km_book_list li{
+	display: inline-block;
+	width: 200px;
+	
+}
+.sd_book_list p,.fm_book_list p,.km_book_list p{
+	
+}
+.button{
+	text-align: center;
+}
+#sd_show_more,#km_show_more,#fm_show_more{
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	background-color: rgb(241, 92, 92);
+	color: #fff;
+	border-radius: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#sd_show_more:hover,#km_show_more:hover,#fm_show_more:hover{
+	background-color: rgb(248, 42, 42);
+	
+}
+
+.search_bar{
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+}
+.search_bar>input{
+	width: 300px;
+	height: 30px;
+}
+.search_bar>a>img{
+	position: relative;
+	width: 20px;
+	margin-right: 10px;
+	top:5px
+}
+
+#dialog div:nth-child(1){
+	text-align: center;
+}
+#dialog>.text_box{
+	margin-top: 15px;
+	text-align: justify;
+}
+
+#dialog>.text_box>p{
+	margin-top: 5px;
+}
+.sd_book_list li img,.fm_book_list li img,.km_book_list li img{
+	cursor: pointer;
+	position: relative;
+	width: 150px;
+}
+

@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'BookkMyungjo-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* 새소식 */
+.whats_new{
+  width: 100%;
+  min-width: 1280px;
+  margin-top: 70px;
+  
+}
+.whats_new h3{
+    float: left;
+    width: 150px;
+    border-top: 2px solid red;   
+    text-align: right;
+    color: rgb(255, 77, 77);
+    padding-top: 5px;
+    margin: 0 100px 0 200px;   
+}
+.new_list li {
+  float: left;
+  margin-right: 75px;
+}
+.new_list img {
+  width: 300px;
+  height: 200px;
+  cursor: pointer;
+}
+.new_list div {
+  display: inline-block;
+  width: 300px;
+}
+.new_list li h4{
+    margin: 5px 0;
+    font-size: 1.1em;
+    color: rgb(151, 118, 118);
+}
+.whats_new::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 이달의 도서 */
+.monthly_book{
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    margin-top: 150px;
+    height: 550px;
+    margin-bottom: 150px;
+    background-color: rgb(227, 43, 49);
+}
+.monthly_book h3{
+    
+    float: left;
+    width: 150px;
+    border-top: 2px solid white;   
+    text-align: right;
+    color: white;
+    padding-top: 5px;
+    margin: 30px 50px 0 200px;   
+}
+.monthly_book_list li{
+    float : left
+}
+
+.critic_message_box{
+    position: relative;
+    width: 500px;
+    height: 440px;
+    background-color: white;
+    margin : 30px 200px 0 10px 
+}
+.critic_message{
+    position: relative;
+    float: left;
+    top: 40px;
+    width: 400px;
+    height: 350px;
+    font-family:"BookkMyungjo-Bd";
+    text-align: justify;
+    font-size: 20px;
+    padding: 0 50px;
+}
+.critic_message>p{
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    bottom: 2px;
+}
+
+.monthly_book_list li img{
+    position: absolute;
+    width: 220px;
+    top: 20px;
+    margin: 150px 0 0 465px;
+    box-shadow: 5px 5px 5px;
+}
+
+h
+/* 진행중인 행사 */
+
+.event{
+    position: relative;
+    width: 100%;
+    min-width: 1280px;
+    margin-top: 30px;
+}
+.event h3{
+    float: left;
+    width: 150px;
+    border-top: 2px solid red;   
+    text-align: right;
+    color: rgb(255, 77, 77);
+    padding-top: 5px;
+    margin: 0 100px 0 200px;   
+}
+
+.event_cover0,.event_cover1,.event_cover2{
+    position: relative;
+    border-top: 2px solid red;
+    width: 1100px;
+    height: 600px;
+}
+.event_cover1,.event_cover2{
+    display: none;
+}
+.event_category{
+    height: 25px;
+    position: relative;
+    float: right;
+    right: 450px;
+    bottom: 40px;
+    z-index: 4;
+}
+.event_category li {
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    float:left;
+    text-align: center;
+    line-height: 40px;
+    background-color: white;
+    cursor: pointer;
+}
+.event_category li:nth-child(1){
+    border: 2px solid red;
+    border-bottom: none;
+    background-color: white; 
+}
+
+.main_event_cover{
+    float: left;
+    margin-top: 20px;
+}
+
+.main_event_cover img{
+    position: relative;
+    
+    width: 550px;
+    height: 400px;
+}
+.main_event_cover div:nth-child(2){
+    margin-top: 5px;
+    font-size: 1.2em;
+    font-weight:bolder;
+}
+.main_event_cover div:nth-child(3){
+    margin-top: 5px;
+}
+.event_list{
+    position: relative;
+    float: right;
+    
+   width: 450px;     
+   height: 500px;
+   
+}
+.event_list li{
+    margin-bottom: 20px;
+    margin-left: 20px;    
+}
+
+.event_list li img{
+    width:  200px;
+    height: 115px;
+}
+.letter_box{
+    position: relative;
+    top : 20px;
+    right: 10px;
+    float: right;
+    width: 200px;
+    
+}
+.letter_box div:nth-child(1){
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.letter_box div{
+    position: relative;
+    float: left;
+}
+
+
+
